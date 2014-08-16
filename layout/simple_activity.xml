@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res/com.example.SegmentedGroupCustom"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <com.example.SegmentedGroupCustom.SegmentedGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            app:cornerRadius="0"
+            app:mainColor="@android:color/holo_red_light">
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="A"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="B"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="C"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="D"
+                     style="@style/RadioButton"/>
+
+    </com.example.SegmentedGroupCustom.SegmentedGroup>
+
+    <com.example.SegmentedGroupCustom.SegmentedGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:mainColor="#ff81ffa4"
+            app:cornerRadius="10"
+            app:strokeWidth="0"
+            android:orientation="vertical">
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="E"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="F"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="G"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="H"
+                     style="@style/RadioButton"/>
+
+    </com.example.SegmentedGroupCustom.SegmentedGroup>
+
+    <com.example.SegmentedGroupCustom.SegmentedGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            app:cornerRadius="20"
+            app:strokeWidth="4"
+            app:mainColor="@android:color/holo_blue_light"
+            app:subColor="@android:color/holo_blue_bright">
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="I"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="J"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="K"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="L"
+                     style="@style/RadioButton"/>
+
+        <RadioButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="M"
+                     style="@style/RadioButton"/>
+
+    </com.example.SegmentedGroupCustom.SegmentedGroup>
+
+</LinearLayout>

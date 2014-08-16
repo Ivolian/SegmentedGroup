@@ -1,0 +1,13 @@
+<resources>
+
+    <declare-styleable name="SegmentedGroup">
+
+        <attr name="mainColor" format="color"/>
+        <attr name="subColor" format="color"/>
+        <attr name="cornerRadius" format="float"/>
+        <attr name="strokeWidth" format="integer"/>
+
+    </declare-styleable>
+
+</resources>
+
